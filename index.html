@@ -9,7 +9,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Ubuntu&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100;300;400;900&family=Ubuntu&display=swap"
         rel="stylesheet">
 
     <!-- Bootstrap 5 -->
@@ -66,10 +67,10 @@
     <!-- Navbar End -->
 
     <!-- About Me Section Start -->
-    <div id="aboutMe" class="container-fluid bg-dark container-body p-5 min-vh-50">
+    <div id="aboutMe" class="container-fluid bg-dark container-body p-5">
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-12 text-light p-5">
-                <img class="rounded-circle" src="images/Me.jpeg" alt="" width="300">
+            <div class="text-light p-5">
+                <img class="rounded-circle" src="images/Me.jpeg" alt="" width="250">
                 <h1 class="p-3">Hi, I'm TJ!</h1>
                 <h3>A web developer.</h3>
             </div>
@@ -78,27 +79,27 @@
     <!-- About Me Section End -->
 
     <!-- Project Section Start -->
-    <div id="projects" class="container-fluid bg-dark container-body min-vh-50">
+    <div id="projects" class="container-fluid bg-dark container-body">
         <div class="row bg-light text-dark d-md-flex justify-content-around align-items-center">
-            <h2 class="text-muted mt-5">My Projects</h2>
-            <div class="col-lg-4 col-md-6 col-sm-12 bg-light text-center w-25 p-5 m-5 rounded">
-                <img src="images/tindog.png" class="w-100 img-fluid">
+            <h2 class="text-muted mt-5">Projects</h2>
+            <div class="col-lg-4 col-md-6 col-sm-12 bg-light text-center p-5 rounded">
+                <img src="images/tindog.png" class="w-100">
                 <h3 class="pb-3 mt-3">Tindog</h3>
                 <p class="pb-3 text-muted">Is your dog looking for his/her one true love? Try this app and he/she will
                     surely like it!
                 </p>
                 <a href="https://tjlc.github.io/tindog/" target="_blank" class="card-link text-dark">Visit Now</a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 bg-light text-center w-25 p-5 m-5 rounded">
-                <img src="images/drumkit.png" class="w-100 img-fluid">
+            <div class="col-lg-4 col-md-6 col-sm-12 bg-light text-center p-5 rounded">
+                <img src="images/drumkit.png" class="w-100">
                 <h3 class="pb-3 mt-3">Drum Kit</h3>
                 <p class="pb-3 text-muted">Hey drum lover! Do you love playing drums but don't have a drum set yet?
                     Check this
                     out!</p>
                 <a href="https://tjlc.github.io/DrumKit/" target="_blank" class="card-link text-dark">Visit Now</a>
             </div>
-            <div class="col-lg-4 bg-light text-center w-25 p-5 m-5 rounded">
-                <img src="images/dicegame.png" class="w-100 img-fluid">
+            <div class="col-lg-4 bg-light text-center p-5 rounded">
+                <img src="images/dicegame.png" class="w-100">
                 <h3 class="pb-3 mt-3">Dice Game</h3>
                 <p class="pb-3 text-muted">This is a dice game match. Test your luck and see who wins. Good luck!</p>
                 <a href="https://github.com/tjlc/DiceGame" target="_blank" class="card-link text-dark">Visit Now</a>
@@ -108,57 +109,58 @@
     <!-- Project Section End -->
 
     <!-- Contact Me Start -->
-    <div id="contactMe" class="bg-dark text-light min-vh-50 p-5">
-        <h2>Get in touch!</h2>
-        <form class="pb-3 pt-2 col-md-8 col-xl-4 m-auto rounded">
-            <div class="form-group m-3">
-                <label for="formGroupExampleInput">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name" required autocomplete>
+    <div id="contactMe" class="bg-dark text-light p-5">
+        <h2>Get in touch</h2>
+        <form class="col-md-8 col-xl-4 mx-auto">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" />
+                <label class="form-label" for="form4Example1">Name</label>
             </div>
-            <div class="form-group m-3">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required autocomplete>
-            </div>
-            <div class="form-group m-3">
-                <label for="formGroupExampleInput">Contact Number</label>
-                <input type="number" min="1" class="form-control" id="formGroupExampleInput"
-                    placeholder="+63 900 000 0000" required autocomplete>
-            </div>
-            <div class="form-group m-3">
-                <label for="exampleFormControlSelect1">Concern</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Inquiry</option>
-                    <option>Hire me!</option>
-                    <option>Rates</option>
-                </select>
-            </div>
-            <div class="form-group m-3">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Send Email
-            </button>
 
-            <!-- Modal -->
-            <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Message Successfully Sent!
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                <label class="form-check-label" for="form4Example4">
+                    Subscribe to our newsletter
+                </label>
+            </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Send Email
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Message Successfully Sent!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
+        </div>
         </form>
     </div>
     <!-- Contact Me End -->
